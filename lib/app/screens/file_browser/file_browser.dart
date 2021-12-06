@@ -12,18 +12,6 @@ import 'package:spark_lib/custom_window/window_appbar.dart';
 import 'package:data_editor/app/controllers/filesystem_controller.dart';
 import 'fb_nav_drawer.dart';
 
-//TODOs:
-// - Make file system watching sane and not crash
-// - Implement popup menu buttons - DONE
-// - Fix UI layout overflows - DONE
-// - Implement displaying FileStat information
-// - Implement application settings saving
-// - Saved favorite directories
-// - Prevent UI hanging when loading new directories (DONE, does not happen in release)
-//    - Queue load of files
-//    - Use a callback to tell the UI to update after its done
-//    - Potentially delegate the work to an isolate
-
 class FileBrowser extends StatefulWidget {
   @override
   State<FileBrowser> createState() {
